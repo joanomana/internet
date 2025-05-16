@@ -1,9 +1,16 @@
-"use client"; // Asegúrate de agregar esta directiva al principio del archivo
+"use client"; 
 import { TiThMenu } from "react-icons/ti";
 import { useState } from "react";
+import {useRouter} from "next/navigation";
+
 
 export default function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
+  const handleQuizClick = () => {
+    router.push("/Quiz");
+  }
+
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -12,8 +19,7 @@ export default function Nav() {
   return (
     <div
       className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-3 
-                bg-black/80 backdrop-blur-md shadow-lg rounded-xl 
-             border border-white/20"
+                bg-black/80 backdrop-blur-md shadow-lg rounded-xl border border-white/20"
     >
       {/* Menú escritorio */}
       <div className="hidden md:flex space-x-6">
@@ -70,9 +76,8 @@ export default function Nav() {
 
       {/* Botón Quiz destacado */}
       <button
-        className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 
-                     text-white font-bold py-2 px-5 rounded-full shadow-lg 
-                     hover:scale-105 transition duration-300"
+        className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold py-2 px-5 rounded-full shadow-lg hover:scale-105 transition duration-300 hover:cursor-pointer"
+        onClick ={handleQuizClick}
       >
         Quiz
       </button>
