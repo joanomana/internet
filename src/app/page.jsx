@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Inicio from "@/components/Inicio";
 import Web from "@/components/Web";
+import Api from "@/components/Api";
 
 
 
@@ -17,6 +18,8 @@ export default function Home() {
         <Nav />
         <Inicio />
         <Web />
+        <Api />
+
       </div>
     </div>
   );
