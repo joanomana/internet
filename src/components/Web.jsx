@@ -9,7 +9,7 @@ const topics = [
     description:
       "La Web (World Wide Web) es un sistema que permite acceder a documentos y recursos interconectados mediante navegadores y protocolos como HTTP.",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet1.jpg/800px-Internet1.jpg",
+      "https://disenowebakus.net/imagenes/articulos/web.jpg",
     color: "bg-blue-500",
   },
   {
@@ -17,7 +17,7 @@ const topics = [
     description:
       "El navegador (cliente) solicita información al servidor, el cual responde con los datos necesarios para mostrar una página web.",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Client-server-model.svg/1200px-Client-server-model.svg.png",
+      "https://upload.wikimedia.org/wikipedia/commons/1/1c/Cliente-Servidor.png",
     color: "bg-green-500",
   },
   {
@@ -25,17 +25,10 @@ const topics = [
     description:
       "HTML estructura el contenido, CSS le da estilo y JavaScript lo hace interactivo. Estos lenguajes permiten crear páginas web funcionales y atractivas.",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML_CSS_JS.png",
+      "https://geoinnova.org/wp-content/uploads/2021/08/logos.png",
     color: "bg-yellow-500",
   },
-  {
-    title: "HTTP y HTTPS",
-    description:
-      "HTTP es el protocolo que usan los navegadores para comunicarse con servidores. HTTPS añade seguridad mediante cifrado.",
-    image:
-      "https://cdn.educba.com/academy/wp-content/uploads/2020/03/What-is-HTTP.jpg",
-    color: "bg-red-500",
-  },
+
 ];
 
 export default function Web() {
