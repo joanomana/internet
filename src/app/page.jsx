@@ -17,8 +17,9 @@ export default function Home() {
       <div className="min-h-screen">
         <Nav />
         <Inicio />
-        <Web />
         <Api />
+        <Web />
+        
 
       </div>
     </div>

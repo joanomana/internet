@@ -15,7 +15,6 @@ export default function Api() {
     const mesero = meseroRef.current;
 
   if (paso === 1) {
-    // Resetear clases para forzar reinicio de animación
     mesero.className = "h-24 absolute left-[43%]";
     setImgMesero("Api/Mesero-CaminandoConPedido.png");
     mesero.classList.add("mover-mesero");
