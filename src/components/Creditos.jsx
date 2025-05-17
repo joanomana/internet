@@ -30,12 +30,12 @@ const team = [
 
 export default function CreditsSection() {
   return (
-    <section className="bg-white/85 mx-auto px-3 space-y-6 p-6 rounded-xl shadow-md " id="credits">
-      <div className="max-w-5xl mx-auto">
+    <section id="Creditos">
+      <div className="bg-white/85 p-6 rounded-xl shadow-md flex flex-col items-center gap-6 xl:w-350 sm:max-w-250">
         <h2 className="text-4xl font-bold mb-10 text-center text-gray-800">
           Créditos del Proyecto
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-18">
           {team.map((member, index) => (
             <div
               key={index}
