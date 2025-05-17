@@ -69,7 +69,7 @@ Cada sección está diseñada como una **experiencia interactiva**, con ejemplos
 - npm run dev
 
 
-Abre tu navegador y ve a  [http://localhost:3000]
+Abre tu navegador y ve a  [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -95,7 +95,7 @@ Proyecto desarrollado por el **Grupo 2**:
 ## 🎥 Video de Demostración
 
 👉 Mira cómo funciona nuestro recurso educativo en este video de 7 minutos:  
-🔗 [Enlace al video de demostración]()
+🔗 [https://www.youtube.com/watch?v=LtlG6ndoZDg](https://www.youtube.com/watch?v=LtlG6ndoZDg)
 
 ---
 
