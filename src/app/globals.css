@@ -1,2 +1,47 @@
 @import "tailwindcss";
 
+@keyframes moverMesero {
+  0% {
+    left: 43%;
+  }
+  100% {
+    left: -41.5%;
+  }
+}
+@keyframes irACocina {
+  0% {
+    left: -41.5%;
+  }
+  100% {
+    left: 124.5%;
+  }
+}
+@keyframes volverCliente {
+  0% {
+    left: 124.5%;
+  }
+  100% {
+    left: -41.5%;
+  }
+}
+@keyframes volverAlCentro {
+  0% {
+    left: -41.5%;
+  }
+  100% {
+    left: 43%;
+  }
+}
+
+.mover-mesero {
+  animation: moverMesero 3s ease-in-out forwards;
+}
+.ir-a-cocina {
+  animation: irACocina 5s ease-in-out forwards;
+}
+.volver-cliente {
+  animation: volverCliente 5s ease-in-out forwards;
+}
+.volver-al-centro {
+  animation: volverAlCentro 3s ease-in-out forwards;
+}
