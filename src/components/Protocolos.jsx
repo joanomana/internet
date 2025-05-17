@@ -37,7 +37,7 @@ export default function Protocolos() {
     return(
         <div className="max-w-[1440px] mx-auto px-4 space-y-6 " id="Protocolos">
             <motion.section
-                className="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6"
+                className="bg-white/85 p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
             >
@@ -53,7 +53,7 @@ export default function Protocolos() {
             </motion.section>
 
             {/* Tarjetas Temáticas */}
-            <section className="bg-gradient-to-b from-gray-100 to-white p-8 rounded-xl shadow-md">
+            <section className="bg-white/85 p-8 rounded-xl shadow-md">
                 <h3 className="text-3xl font-bold mb-6 text-center text-gray-800">
                 Protocolos de la Web
                 </h3>

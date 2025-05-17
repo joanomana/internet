@@ -97,7 +97,7 @@ export default function Api() {
   return (
     <section className="max-w-[1440px] mx-auto px-4 space-y-6" id="Api">
       {/* Encabezado */}
-      <div className="bg-white p-6 rounded-xl shadow-md">
+      <div className="bg-white/85 p-6 rounded-xl shadow-md">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">¿Qué es Una API?</h1>
         <p className="text-gray-600 text-lg">
           Una API es un conjunto de definiciones y protocolos que permiten a dos aplicaciones comunicarse entre sí.
@@ -105,7 +105,7 @@ export default function Api() {
       </div>
 
       {/* Descripción dinámica */}
-      <div className="bg-blue-600 p-6 rounded-xl shadow-md text-white text-center space-y-2">
+      <div className="bg-blue-600/90 p-6 rounded-xl shadow-md text-white text-center space-y-2">
         <h2 ref={tituloRef} className="text-2xl font-semibold">Analogia de una API → Mesero</h2>
         <p ref={parrafoRef} className="text-lg leading-relaxed">
           Una API es como un mesero en un restaurante; tú haces un pedido, el mesero lo lleva a la cocina y luego te trae la comida.
@@ -124,7 +124,7 @@ export default function Api() {
       </div>
 
       {/* Animación visual */}
-      <div className="bg-green-500 p-6 rounded-xl shadow-md flex justify-between items-center relative overflow-hidden">
+      <div className="bg-yellow-500/95 p-6 rounded-xl shadow-md flex justify-between items-center relative overflow-hidden">
         <img src="Api/comensal.webp" alt="Cliente" className="h-40 object-contain" />
         <div className="w-1/3 flex justify-center items-center relative">
           <img

@@ -54,7 +54,7 @@ export default function Inicio() {
         {/* ¿Qué es Internet? */}
         <motion.section
           id="que-es"
-          className="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6"
+          className="bg-white/85 p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
@@ -79,7 +79,7 @@ export default function Inicio() {
         {/* Historia de Internet */}
         <motion.section
           id="historia"
-          className="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6 "
+          className="bg-white/85 p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6 "
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
@@ -106,7 +106,7 @@ export default function Inicio() {
       {/* ¿Cómo funciona Internet? */}
       <section
         id="como-funciona"
-        className="bg-gradient-to-b from-gray-100 to-white p-8 rounded-xl shadow-md"
+        className="bg-white/85 p-8 rounded-xl shadow-md"
       >
         <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">
           ¿Cómo funciona Internet?

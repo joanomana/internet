@@ -3,6 +3,7 @@ import Inicio from "@/components/Inicio";
 import Web from "@/components/Web";
 import Api from "@/components/Api";
 import Protocolos from "@/components/Protocolos";
+import Creditos from "@/components/Creditos";
 
 
 
@@ -11,7 +12,7 @@ export default function Home() {
     <div
       className="bg-cover bg-center bg-no-repeat h-full"
       style={{
-        backgroundImage: "url('/internet-hero.jpg')", 
+        backgroundImage: "url('/internet.jpg')", 
         backgroundAttachment: "fixed",
       }}
     >
@@ -21,8 +22,7 @@ export default function Home() {
         <Api />
         <Web />
         <Protocolos/>
-        
-
+        <Creditos/>
       </div>
     </div>
   );

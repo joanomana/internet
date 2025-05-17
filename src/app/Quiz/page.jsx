@@ -166,13 +166,13 @@ export default function Quiz() {
             {!started ? (
             <>
                 <h1 className="text-2xl text-orange-500 mb-6">
-                Welcome to the Internet Quiz
+                Bienvenido al Quiz: ¿Cómo funciona Internet?
                 </h1>
                 <button
                 onClick={startQuiz}
                 className="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600"
                 >
-                Go
+                Iniciar
                 </button>
             </>
             ) : (
