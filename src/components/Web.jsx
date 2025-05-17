@@ -35,7 +35,7 @@ export default function Web() {
   const [selectedTopic, setSelectedTopic] = useState(null);
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 space-y-6 pt-20" id="web">
+    <div className="max-w-[1440px] mx-auto px-4 space-y-6 " id="Web">
       {/* Encabezado */}
       <motion.section
         className="bg-white p-6 rounded-xl shadow-md flex flex-col md:flex-row items-center gap-6"
@@ -59,7 +59,7 @@ export default function Web() {
           ¿Cómo funciona la Web?
         </h3>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 px-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8 px-4">
           {topics.map((topic, index) => (
             <motion.div
               key={index}

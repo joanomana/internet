@@ -45,11 +45,11 @@ export default function Inicio() {
   const [activeStep, setActiveStep] = useState(null);
 
   return (
-    <div className="max-w-[1440px] mx-auto px-4 space-y-6 pt-25">
+    <div className="max-w-[1440px] mx-auto px-4 space-y-6 pt-25" id="inicio">
       {/* INTRODUCCIÓN */}
       <div
         className="flex flex-col space-y-12 text-lg text-gray-800 "
-        id="inicio"
+        
       >
         {/* ¿Qué es Internet? */}
         <motion.section

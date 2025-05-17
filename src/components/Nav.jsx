@@ -34,7 +34,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#Api"
               className="text-white text-lg font-medium hover:text-cyan-300 transition"
             >
               Api
@@ -42,7 +42,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#Web"
               className="text-white text-lg font-medium hover:text-cyan-300 transition"
             >
               Web
@@ -50,7 +50,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#Protocolos"
               className="text-white text-lg font-medium hover:text-cyan-300 transition"
             >
               Protocolos
@@ -58,7 +58,7 @@ export default function Nav() {
           </li>
           <li>
             <a
-              href="#"
+              href="#Creditos"
               className="text-white text-lg font-medium hover:text-cyan-300 transition"
             >
               Créditos

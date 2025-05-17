@@ -95,7 +95,7 @@ export default function Api() {
   }, [paso]);
 
   return (
-    <section className="max-w-[1440px] mx-auto px-4 py-12 space-y-6" id="api">
+    <section className="max-w-[1440px] mx-auto px-4 space-y-6" id="Api">
       {/* Encabezado */}
       <div className="bg-white p-6 rounded-xl shadow-md">
         <h1 className="text-3xl font-bold text-gray-800 mb-2">¿Qué es Una API?</h1>
